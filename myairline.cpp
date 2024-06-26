@@ -118,6 +118,7 @@ class Registration
 						{
 							mainMenu();
 						}
+						break;
 						
 					}
 					
@@ -177,7 +178,7 @@ class Registration
 							mainMenu();
 							
 						}	
-							
+						break;	
 						}
 						
 						case 3:
@@ -224,7 +225,7 @@ class Registration
 							mainMenu();
 							
 						}
-					
+					break;
 				}
 				case 4:
 					{
@@ -282,6 +283,7 @@ class Registration
 							mainMenu();
 							
 						}
+						break;
 					}
 				case 5:
 					{
@@ -339,6 +341,7 @@ class Registration
 							mainMenu();
 							
 						}
+						break;
 					}
 					case 6:
 						{
@@ -396,6 +399,7 @@ class Registration
 							mainMenu();
 							
 						}
+							break;
 						}
 						default :
 							{
