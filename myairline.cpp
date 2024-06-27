@@ -17,7 +17,7 @@ class Details
 	public:
 		
 		static string name, gender;
-		int phoneNo;
+		string phoneNo;
 		int age;
 		string add;
 		static int cId;
@@ -34,7 +34,8 @@ class Details
 			fflush(stdin);
 			getline(cin,add);
 			cout<<"ENTER Customer phone no. :\t";
-			cin>>phoneNo;
+			fflush(stdin);
+			getline(cin,phoneNo);
 			cout<<"ENTER Customer age :\t";
 			cin>>age;
 			cout<<"ENTER Customer gender :\t";
